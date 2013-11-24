@@ -47,6 +47,7 @@ echo "+ Configuring PHP..."
 --enable-mbregex \
 --enable-mbstring \
 --enable-pcntl \
+--enable-intl \
 --enable-soap=shared \
 --enable-zip \
 --with-bz2 \
@@ -57,12 +58,8 @@ echo "+ Configuring PHP..."
 --with-mcrypt=/app/local \
 --with-iconv \
 --with-mhash \
---with-mysql \
---with-mysqli \
 --with-openssl \
 --with-pcre-regex \
---with-pdo-mysql \
---with-pgsql \
 --with-pdo-pgsql \
 --with-png-dir \
 --with-freetype-dir=/app/local \
